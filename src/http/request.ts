@@ -148,4 +148,8 @@ export class HttpClient {
   private sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
+
+  public getBaseUrl(): string {
+    return this.config.baseUrl;
+  }
 }

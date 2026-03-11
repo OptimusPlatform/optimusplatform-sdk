@@ -1,16 +1,22 @@
 # Optimus Platform SDK
 
+  
+
 ![enter image description here](https://olive-chemical-haddock-701.mypinata.cloud/ipfs/bafybeifja2g6texqpcolvuj3a366kxmsamsvzv4v242qp3h2var7awfhmu)
 
-  <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Edge_Runtime-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-AI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  
+
+<p  align="center">
+<img  src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"  />
+<img  src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"  />
+<img  src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"  />
+<img  src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"  />
+<img  src="https://img.shields.io/badge/Edge_Runtime-000000?style=for-the-badge&logo=vercel&logoColor=white"  />
+<img  src="https://img.shields.io/badge/OpenAI-AI-412991?style=for-the-badge&logo=openai&logoColor=white"  />
+<img  src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"  />
 </p>
+
+  
 
 Production-ready TypeScript SDK for the Optimus platform. Deploy applications, manage Kubernetes workloads, create workflows, run AI pipelines, and monitor deployments.
 
@@ -699,5 +705,3 @@ The SDK works across multiple JavaScript runtimes:
   
 
 MIT
-
-  

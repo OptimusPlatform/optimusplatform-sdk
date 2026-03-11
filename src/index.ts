@@ -15,6 +15,18 @@ export type {
   PlatformMetrics,
   Integration,
   IntegrationConfig,
+  EventType,
+  EventHandler,
+  EventSubscription,
+  EventStreamConfig,
+  DeploymentEvent,
+  WorkflowProgressEvent,
+  PodLogEvent,
+  MetricsEvent,
+  LogStreamConfig,
+  SSEConfig,
+  WebSocketConfig,
+  StreamConnection,
 } from './types';
 
 export {
