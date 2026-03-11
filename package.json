@@ -1,0 +1,41 @@
+{
+  "name": "@optimus-plt/sdk",
+  "version": "1.0.0",
+  "description": "Production-ready TypeScript SDK for Optimus platform",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && npm run bundle",
+    "bundle": "echo 'Build complete'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "optimus",
+    "kubernetes",
+    "sdk",
+    "workflow",
+    "ai",
+    "deployment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
