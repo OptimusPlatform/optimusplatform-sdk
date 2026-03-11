@@ -4,6 +4,7 @@ import { WorkflowModule } from './modules/workflow';
 import { AIModule } from './modules/ai';
 import { MetricsModule } from './modules/metrics';
 import { IntegrationsModule } from './modules/integrations';
+import { EventStreamModule } from './modules/events';
 import type { OptimusConfig } from './types';
 
 export class Optimus {
@@ -12,6 +13,7 @@ export class Optimus {
   public readonly ai: AIModule;
   public readonly metrics: MetricsModule;
   public readonly integrations: IntegrationsModule;
+  public readonly events: EventStreamModule;
 
   private http: HttpClient;
 
@@ -27,5 +29,6 @@ export class Optimus {
     this.ai = new AIModule(this.http);
     this.metrics = new MetricsModule(this.http);
     this.integrations = new IntegrationsModule(this.http);
+    this.events = new EventStreamModule(this.http);
   }
 }
