@@ -1,6 +1,6 @@
 {
   "name": "@optimus-plt/sdk",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Production-ready TypeScript SDK for Optimus platform",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
